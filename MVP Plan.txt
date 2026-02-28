@@ -1,0 +1,26 @@
+Planning
+Market Research dan user research
+* User Research
+  AI Assistant offline diperlukan untuk meberikan panduan ditengah catastropic blackout. Berdasarkan
+sumber sumber mengenai data wawancara dengan para korban bencana (cianjur 2022, sumatera 2025 q4)
+dimana panduan offline benar-benar diperlukan untuk mengatasi kebingungan dan kepanikan sekaligus
+membangun pondasi kekuatan publik untuk survive dan memudahkan koordinasi kepada petugas keamanan
+dan penanggulangan bencana.
+
+*Rangkuman data wawancara
+ - Total korban mencapain 10 juta orang per tahun 2025
+ - Bencana didominasi oleh banjir dan cuaca ekstrem lalu longsor dan gempa bumi
+ - Kebutuhan utama : Tenda layak huni, logistik pangan, air bersih, obat obatan dan trauma healing.
+ - Beberapa poin vital
+  Kisah bertahan hidup : penyelamatan bocah berusia 6 tahun yang ditemukan selamat setelah tertimbun longsor dan reruntuhan selama 48jam
+  Kondisi pengungsian : minim obat, tenda sesak, lokasi relokasi tidak stabil.
+  Dampak Psikologis : Trauma wilayah akan gempa susulan, kesedihan mendalam karena kehilangan anggota keluarga,
+                      Keputusasaan, trauma pada anak-anak.
+Kesimpulan
+   Rancangan aplikasi berbasis ai yang dapat berjalan offline dan chatbot yang bisa memberikan panduan 'first-step' pemulihan pasca-bencana.
+Selain itu, aplikasi juga perlu memiliki fitur informasi cuaca terkini terutama pelacak badai, Peringatan cuaca ekstrem, dan emergency call
+terintegrasi. Mengingat korban juga memiliki kendala logistik dan trauma psikologis, aplikasi ini akan dilengkapi dengan chatbpot psikologi
+sederhana untuk penanggulangan pertama dan akses offline atau online untuk terhubung kepada bantuan psikolog professional, nomor direct to 
+Pemerintah daerah, sukarelawan dan juga Institusi penanggulangan bencana untuk bantuan logistik, akses penuh terhadap GPS dan koneksi non
+-internet untuk memberitahu lokasi tempat bencana terjadi agar memudahkan para petugas untuk menemukan Korban terutama ditempat yang terisolasi
+( jembatan putus, banjir bandang, tanah labil dsb )

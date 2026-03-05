@@ -1,0 +1,31 @@
+{
+  "report_id": "RPT-20260227-8A9B",
+  "user_id": "USR-9921",
+  "timestamp": "2026-02-27T13:15:00Z",
+  "location": {
+    "latitude": -6.2088,
+    "longitude": 106.8456,
+    "address_snippet": "road name, city name"
+  },
+  "media": {
+    "image_url": "https://storage.firebase.com/waspadaai/reports/img_8A9B.jpg",
+    "thumbnail_url": "https://storage.firebase.com/waspadaai/reports/thumb_8A9B.jpg"
+  },
+  "ai_analysis": {
+    "disaster_type": "Banjir",
+    "severity_level": "Tinggi", 
+    "confidence_score": 0.94,
+    "detected_objects": [
+      "air kecoklatan",
+      "kendaraan terendam",
+      "rumah warga"
+    ],
+    "estimated_water_depth_cm": 150,
+    "needs_immediate_rescue": true
+  },
+  "user_input": {
+    "notes": "Air naik sangat cepat dalam 30 menit terakhir, ada lansia terjebak.",
+    "contact_number": "081234567890"
+  },
+  "status": "Menunggu Verifikasi" 
+}

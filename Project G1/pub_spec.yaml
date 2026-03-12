@@ -14,3 +14,7 @@ dev_dependencies:
    sdk: flutter
  build_runner: ^2.4.8
  isar_generator: ^3.1.0
+
+flutter:
+  assets:
+    - data/models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf

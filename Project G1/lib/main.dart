@@ -1,7 +1,25 @@
+import 'package:flutter/material.dart';
+import 'feature/screens/chat_screen.dart';
+
 void main() async {
-  // Pastikan binding Flutter sudah siap
   WidgetsFlutterBinding.ensureInitialized();
-  
-  // Inisialisasi service atau database di sini jika perlu
+
   runApp(const GaiaConnectApp());
+}
+
+class GaiaConnectApp extends StatelessWidget {
+  const GaiaConnectApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Gaia Connect',
+      debugShowCheckedModeBanner: false, 
+      theme: ThemeData(
+        brightness: Brightness.dark, 
+        primarySwatch: Colors.blueGrey,
+      ),
+      home: const ChatScreen(), 
+    );
+  }
 }

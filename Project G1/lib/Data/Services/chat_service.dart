@@ -9,19 +9,17 @@ class ChatService {
     db = openDB();
   }
 
-  // Membuka koneksi database
   Future<Isar> openDB() async {
     final dir = await getApplicationDocumentsDirectory();
     if (Isar.instanceNames.isEmpty) {
       return await Isar.open(
-        [ChatMessageSchema], // Schema yang di-generate build_runner
+        [ChatMessageSchema],
         directory: dir.path,
       );
     }
     return Isar.getInstance()!;
   }
 
-  // Simpan Pesan Baru (User atau AI)
   Future<void> saveMessage(String text, bool isUser) async {
     final isar = await db;
     final newMessage = ChatMessage()
@@ -34,13 +32,11 @@ class ChatService {
     });
   }
 
-  // Ambil Semua Riwayat Pesan
   Future<List<ChatMessage>> getAllMessages() async {
     final isar = await db;
     return await isar.chatMessages.where().sortByTimestamp().findAll();
   }
 
-  // Hapus Riwayat (Jika dibutuhkan di fitur Emergency)
   Future<void> clearHistory() async {
     final isar = await db;
     await isar.writeTxn(() => isar.chatMessages.clear());

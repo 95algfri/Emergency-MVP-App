@@ -20,7 +20,6 @@ class _ChatScreenState extends State<ChatScreen> {
     _loadMessages();
   }
 
-  // Mengambil riwayat dari Isar
   void _loadMessages() async {
     final messages = await _chatService.getAllMessages();
     setState(() {
